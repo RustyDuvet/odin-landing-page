@@ -10,10 +10,11 @@ body {
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 24px;
     align-items: center;
     width: 100%;
     max-width: 1400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 ul {
@@ -35,7 +36,6 @@ a {
     font-size: 30px;
     font-weight: 900;
     color: #f9faf8;
-    padding-left: 20px;
     
 }
 
@@ -81,7 +81,6 @@ a {
 
 .p1-1 {
     width: 450px;
-    padding-left: 20px;
 }
 
 img {
@@ -135,4 +134,31 @@ img {
 
 .p2 {
     margin-bottom: 100px;
+}
+
+.p3 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background-color: #e5e7eb;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.p3 .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 100%;
+    max-width:800px;
+}
+
+.p3 .qt-auth {
+    font-weight: 900;
+    width: 100%;
+    max-width: 800px;
+    text-align: end;
+    font-size: 24px;
 }
